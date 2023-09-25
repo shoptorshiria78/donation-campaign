@@ -5,27 +5,33 @@ import Home from "../Page/Home/Home";
 import MainLayOut from "../Layouts/MainLayOut";
 import Donation from "../Page/Donation/Donation";
 import Statistics from "../Page/Statistics/Statistics";
+import DonationDetails from "../Page/DonationDetails/DonationDetails";
 
 
 const route = createBrowserRouter([
     {
-        path:'/',
-        element:<MainLayOut></MainLayOut>,
+        path: '/',
+        element: <MainLayOut></MainLayOut>,
         errorElement: <Error></Error>,
-        children:[
+        children: [
             {
-              path: '/',
-              element:<Home></Home>,
-              loader:()=>fetch('donation.json')
-             },
-             {
+                path: '/',
+                element: <Home></Home>,
+                
+            },
+            {
                 path: '/donation',
-                element:<Donation></Donation>
-               },
-               {
+                element: <Donation></Donation>
+            },
+            {
                 path: '/statistics',
-                element:<Statistics></Statistics>
-               },
+                element: <Statistics></Statistics>
+            },
+            {
+                path: '/donationDetails/:id',
+                element: <DonationDetails></DonationDetails>,
+                loader:()=>fetch('/public/donation.json')
+            }
         ]
     }
 ])
