@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
     return (
-        <nav className="flex justify-between h-[72px] items-center mt-5">
+        <nav className="flex justify-between h-[72px] items-center mt-5 max-w-[1100px] mx-auto">
                 <div>
                     <img className="h-[50px]" src={image} alt="" />
                 </div>

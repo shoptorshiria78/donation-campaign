@@ -4,9 +4,9 @@ import NavBar from "../Component/NavBar/NavBar";
 
 const MainLayOut = () => {
     return (
-        <div className="max-w-[1100px] mx-auto">
+        <div >
             <NavBar></NavBar>
-            <Outlet></Outlet>
+            <Outlet className="max-w-[1100px] mx-auto "></Outlet>
 
         </div>
     );
