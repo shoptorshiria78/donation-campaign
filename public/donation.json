@@ -1,0 +1,134 @@
+[
+    {
+      "id": 1,
+      "img": "https://i.ibb.co/V2NDHxw/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "color_category_bg": "#0052FF26",
+      "color_card_btn_bg": "#0052FF33",
+      "color_text_btn_bg": "#0052FF",
+      "description": "Donating to health-related causes is a compassionate and impactful way to make a positive difference in the lives of individuals and communities.Health donations can provide critical medical treatments, surgeries, and medications to individuals who may not have access to healthcare due to financial constraints. Your donation can directly contribute to saving lives.",
+      "price": 350
+    },
+    {
+      "id": 2,
+      "img": "https://i.ibb.co/zbvtxsd/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "color_category_bg": "#FF444926",
+      "color_card_bg": "#FF444933",
+      "color_text_btn_bg": "#FF444A",
+      "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price": 300
+    },
+    {
+      "id": 3,
+      "img": "https://i.ibb.co/Cw08zmD/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "color_category_bg": "#79C23F26",
+      "color_card_bg": "#79C23F33",
+      "color_text_btn_bg": "#79C23F",
+      "description": "Donating clothing is a meaningful way to make a positive impact on individuals and communities in need.Many individuals and families, both locally and globally, struggle to afford basic clothing. Donating clothing helps alleviate poverty by providing people with essential items they may not be able to purchase themselves.In colder climates or during harsh weather conditions, warm clothing is essential for survival. Donations of coats, sweaters, and blankets can provide warmth and protection against the elements.",
+      "price": 250
+    },
+    {
+      "id": 4,
+      "img": "https://i.ibb.co/zQ6kqN7/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "color_category_bg": "#F8714726",
+      "color_card_bg": "#F8714733",
+      "color_text_btn_bg": "#F87147",
+      "description": "Donating food is a crucial and compassionate way to address hunger and food insecurity in society.Donating food directly helps individuals and families who are struggling to access nutritious meals. It is a powerful way to alleviate hunger, especially among vulnerable populations. Many people, including low-income families, the homeless, and individuals facing financial hardships, rely on food donations to meet their daily nutritional needs. Food donations play a vital role in providing immediate relief during natural disasters, crises, and emergencies. They ensure that affected communities have access to essential sustenance.",
+      "price": 280
+    },
+    {
+      "id": 5,
+      "img": "https://i.ibb.co/zQ6kqN7/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "color_category_bg": "#F8714726",
+      "color_card_bg": "#F8714733",
+      "color_text_btn_bg": "#F87147",
+      "description": "Donating food is a crucial and compassionate way to address hunger and food insecurity in society.Donating food directly helps individuals and families who are struggling to access nutritious meals. It is a powerful way to alleviate hunger, especially among vulnerable populations. Many people, including low-income families, the homeless, and individuals facing financial hardships, rely on food donations to meet their daily nutritional needs. Food donations play a vital role in providing immediate relief during natural disasters, crises, and emergencies. They ensure that affected communities have access to essential sustenance.",
+      "price": 300
+    },
+    {
+      "id": 6,
+      "img": "https://i.ibb.co/Cw08zmD/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "color_category_bg": "#79C23F26",
+      "color_card_bg": "#79C23F33",
+      "color_text_btn_bg": "#79C23F",
+      "description": "Donating clothing is a meaningful way to make a positive impact on individuals and communities in need.Many individuals and families, both locally and globally, struggle to afford basic clothing. Donating clothing helps alleviate poverty by providing people with essential items they may not be able to purchase themselves.In colder climates or during harsh weather conditions, warm clothing is essential for survival. Donations of coats, sweaters, and blankets can provide warmth and protection against the elements.",
+      "price": 200
+    },
+    {
+      "id": 7,
+      "img": "https://i.ibb.co/zbvtxsd/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "color_category_bg": "#FF444926",
+      "color_card_bg": "#FF444933",
+      "color_text_btn_bg": "#FF444A",
+      "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price": 250
+    },
+    {
+      "id": 8,
+      "img": "https://i.ibb.co/V2NDHxw/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "color_category_bg": "#0052FF26",
+      "color_card_bg": "#0052FF33",
+      "color_text_btn_bg": "#0052FF",
+      "description": "Donating to health-related causes is a compassionate and impactful way to make a positive difference in the lives of individuals and communities.Health donations can provide critical medical treatments, surgeries, and medications to individuals who may not have access to healthcare due to financial constraints. Your donation can directly contribute to saving lives.",
+      "price": 320
+    },
+    {
+      "id": 9,
+      "img": "https://i.ibb.co/V2NDHxw/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "color_category_bg": "#0052FF26",
+      "color_card_bg": "#0052FF33",
+      "color_text_btn_bg": "#0052FF",
+      "description": "Donating to health-related causes is a compassionate and impactful way to make a positive difference in the lives of individuals and communities.Health donations can provide critical medical treatments, surgeries, and medications to individuals who may not have access to healthcare due to financial constraints. Your donation can directly contribute to saving lives.",
+      "price": 300
+    },
+    {
+      "id": 10,
+      "img": "https://i.ibb.co/zbvtxsd/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "color_category_bg": "#FF444926",
+      "color_card_bg": "#FF444933",
+      "color_text_btn_bg": "#FF444A",
+      "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price": 290
+    },
+    {
+      "id": 11,
+      "img": "https://i.ibb.co/Cw08zmD/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "color_category_bg": "#79C23F26",
+      "color_card_bg": "#79C23F33",
+      "color_text_btn_bg": "#79C23F",
+      "description": "Donating clothing is a meaningful way to make a positive impact on individuals and communities in need.Many individuals and families, both locally and globally, struggle to afford basic clothing. Donating clothing helps alleviate poverty by providing people with essential items they may not be able to purchase themselves.In colder climates or during harsh weather conditions, warm clothing is essential for survival. Donations of coats, sweaters, and blankets can provide warmth and protection against the elements.",
+      "price": 220
+    },
+    {
+      "id": 12,
+      "img": "https://i.ibb.co/zQ6kqN7/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "color_category_bg": "#F8714726",
+      "color_card_bg": "#F8714733",
+      "color_text_btn_bg": "#F87147",
+      "description": "Donating food is a crucial and compassionate way to address hunger and food insecurity in society.Donating food directly helps individuals and families who are struggling to access nutritious meals. It is a powerful way to alleviate hunger, especially among vulnerable populations. Many people, including low-income families, the homeless, and individuals facing financial hardships, rely on food donations to meet their daily nutritional needs. Food donations play a vital role in providing immediate relief during natural disasters, crises, and emergencies. They ensure that affected communities have access to essential sustenance.",
+      "price": 250
+    }
+  ]
