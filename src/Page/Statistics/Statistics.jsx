@@ -10,8 +10,8 @@ import { styled } from '@mui/system';
 
 const Statistics = () => {
 
-    const [donatedPrice, setDonatedPrice] = useState(0);
-    const [totalDonatedPrice, setTotalDonatedPrice] = useState(0);
+    const [donatedPrice, setDonatedPrice] = useState([]);
+    const [totalDonatedPrice, setTotalDonatedPrice] = useState([]);
     const totalDonation = useLoaderData();
     const donatedItems = JSON.parse(localStorage.getItem('donate'));
     // console.log(totalDonation, donatedItems);

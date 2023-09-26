@@ -37,7 +37,7 @@ const Home = () => {
     }
 
     useEffect(() => {
-        fetch('donation.json')
+        fetch('./donation.json')
             .then(res => res.json())
             .then(data => setLoadData(data))
     }, [])

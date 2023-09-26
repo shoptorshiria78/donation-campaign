@@ -9,7 +9,7 @@ const Header = ({handleChange,handleSearchText}) => {
     
     const [loadData, setLoadData] = useState([]);
     useEffect(() => {
-        fetch('donation.json')
+        fetch('./donation.json')
             .then(res => res.json())
             .then(data => setLoadData(data))
     }, [handleSearchText])
