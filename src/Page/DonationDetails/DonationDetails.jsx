@@ -48,11 +48,11 @@ const DonationDetails = () => {
     }
 
     return (
-        <div className="max-w-[1100px] space-y-3 mx-auto mb-10 ">
+        <div className="w-[400px] md:w-[600px] lg:w-[1100px] space-y-3 mx-auto mb-10 mt-10 md:mt-6">
             <div className="relative">
                 <img className="w-full  h-[80vh]" src={card.img} alt="" />
-                <div className="bg-gradient-to-r from-black to-black opacity-50 h-24 absolute w-full top-[356px] "></div>
-                <div className=" absolute top-[384px]  ">
+                <div className="bg-gradient-to-r from-black to-black opacity-50 h-24 absolute w-full  bottom-0 "></div>
+                <div className=" absolute bottom-8  ">
                     <button style={{ backgroundColor:card.color_text_btn_bg }} className={` h-10 px-5 rounded text-white ml-7` } onClick={handleDonation}>Donate $<span>{card.price}</span></button>
                 </div>
             </div>

@@ -13,7 +13,7 @@ const Card = (card) => {
 
     return (
         <div onClick={handleDonationDetails}>
-            <div style={bgCardStyle} className="rounded w-[260px] mt-3">
+            <div style={bgCardStyle} className="rounded w-11/12  md:w-[350px] lg:w-[260px] mt-3">
                 <figure><img className="" src={card.card.img} /></figure>
                 <div className="space-y-2 mt-2 p-3">
 

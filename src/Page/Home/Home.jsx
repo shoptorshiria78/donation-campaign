@@ -52,7 +52,7 @@ const Home = () => {
             handleChange={handleChange}
             handleSearchText = {handleSearchText}
             ></Header>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap:2 max-w-[1100px] mx-auto mt-32 mb-16">
+            <div className="ml-8 md:ml-6 lg:mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap:2 max-w-[1100px] mx-auto mt-32 mb-16">
                 {
                     loadData?.map(card => <Card card={card} key={card.id}></Card>)
                 }

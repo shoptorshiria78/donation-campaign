@@ -33,7 +33,7 @@ const Donation = () => {
 
     return (
         <div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 max-w-[1100px] mx-auto mt-8 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 max-w-[1100px] mx-3 md:mx-4 lg:mx-auto mt-12 gap-4">
                 {
                     donatedCard.map((card, idx) => <DonatedCard card={card} key={idx}></DonatedCard>)
                 }

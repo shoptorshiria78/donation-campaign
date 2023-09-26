@@ -35,7 +35,7 @@ const Statistics = () => {
 
     const sizing = {
         margin: { right: 5 },
-        width: 600,
+        width: 400,
         height: 300,
         legend: { hidden: true },
     };
@@ -47,7 +47,7 @@ const Statistics = () => {
     };
 
     return (
-        <div className="flex justify-center items-center h-[80vh]">
+        <div className="flex justify-center items-center w-[400px] md:w-[600px] lg:w-[1100px] mx-auto mt-20 h-[80vh]">
             <div>
                 <div className="flex justify-center items-center mb-10" >
                     <PieChart
@@ -69,14 +69,14 @@ const Statistics = () => {
                 </div>
                 <div className=" flex justify-center items-center mb-10" >
                     <div className="flex items-center">
-                        <p>Your Donation</p>
-                        <div className=" border-[#00C49F] border-4 ml-3 w-24 h-0">
+                        <p className="text-xs md:text-base font-medium">Your Donation</p>
+                        <div className=" border-[#00C49F] border-4 ml-3 w-16 md:w-24 h-0">
 
                         </div>
                     </div>
                     <div className="flex items-center ml-4">
-                        <p>Total Donation</p>
-                        <div className=" border-[#FF444A] border-4 w-24 h-0 ml-3">
+                        <p className="text-xs md:text-base font-medium">Total Donation</p>
+                        <div className=" border-[#FF444A] border-4 w-16 md:w-24 h-0 ml-3">
 
                         </div>
                     </div>
