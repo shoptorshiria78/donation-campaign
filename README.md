@@ -1,8 +1,9 @@
-# React + Vite
+Three Features of the Donation Campaign Projects is given below:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. This project is based on Single Page Application logic. React Router concept is using here. Single Page Application is much more efficient in some cases cause it does not reload the whole page for a small change with in the application.
 
-Currently, two official plugins are available:
+2. This project has a page called Statistics where a Pi Chart is used for the visual representation of the total donation and the donation that is made by the user.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. This project includes a search function in the Home page where a user can search the category to donate.
+
+4. It also use the localStorage to save the donated amount in the user browser.

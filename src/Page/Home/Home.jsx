@@ -30,6 +30,9 @@ const Home = () => {
              setLoadData(searchData);
 
         }
+        else if (searchInput === ""){
+            setLoadData(loadData);
+        }
 
     }
 
