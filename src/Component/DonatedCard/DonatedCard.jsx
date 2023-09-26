@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 
 
 
@@ -5,7 +6,13 @@ import PropTypes from 'prop-types'
 
 const DonatedCard = ({ card }) => {
 
-    const bgStyle = { backgroundColor: card.color_category_bg, color: card.color_text_btn_bg }
+    const bgStyle = { backgroundColor: card.color_category_bg, color: card.color_text_btn_bg };
+
+    const navigate = useNavigate()
+    const handleDonationDetails = () =>{
+            navigate(`/donationDetails/${card.id}`)
+    }
+
 
     return (
         <div>
@@ -17,7 +24,7 @@ const DonatedCard = ({ card }) => {
                     <h1 className='text-xl font-semibold'>{card.title}</h1>
                     <h1 style={{ color: card.color_text_btn_bg }} className='text-base font-semibold'> ${card.price} </h1>
 
-                    <button style={{ backgroundColor: card.color_text_btn_bg }} className={` h-10 w-32  rounded  text-white `}>View Details</button>
+                    <button onClick={handleDonationDetails} style={{ backgroundColor: card.color_text_btn_bg }} className={` h-10 w-32  rounded  text-white `}>View Details</button>
 
 
 
